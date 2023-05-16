@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.pic {
+  width: auto;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(33, 34, 42, 1);
+  width: auto;
+  padding: 30px 25px;
+  height: 90px;
+}
+.navLeft {
+  display: flex;
+  align-self: center;
+  color: rgba(97, 218, 251, 1);
+  margin-left: 7px;
+}
+nav h3 {
+  width: auto;
+  display: flex;
+  align-self: center;
+  color: rgba(222, 235, 248, 1);
+  margin-left: auto;
+}
+main {
+  background-image: url(logo192.png);
+
+  background-repeat: no-repeat;
+  background-position-y: 75%;
+  background-position-x: 100%;
+  background-color: rgba(40, 45, 53, 1);
+  height: 100%;
+}
+
+main h1 {
+  padding-top: 57px;
+  margin-top: 0px;
+  margin-left: 27px;
+  color: rgba(255, 255, 255, 1);
+}
+main ul {
+  padding-left: 51px;
+  color: rgb(255, 255, 255);
+}
+main li {
+  padding-top: 20px;
+  align-self: auto;
+}
+
+li::marker {
+  font-size: 2rem;
+  color: aqua;
+}
