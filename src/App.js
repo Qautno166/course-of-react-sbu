@@ -1,14 +1,18 @@
 import React from "react";
-import Main from "./component/Main.js";
-import Navbar from "./component/Navbar.js";
+import Info from "./components/Info.js";
+import About from "./components/About.js";
+import Intrests from "./components/Interests.js";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (
     <div className="container">
-      <Navbar />
-      <Main />
+      <Info />
+      <About />
+      <Intrests />
+      <Footer />
     </div>
   );
 }
-
 export default App;
+// ReactDOM.render((<App />).document.getElementById("root"));
